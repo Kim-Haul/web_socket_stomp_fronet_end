@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+## Installation (React + TypeScript)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+```javascript
+// default
+$ npx create-react-app 프로젝트명 --template typescript
+$ yarn add react-router-dom
+$ yarn add styled-components
+$ yarn @types/styled-components --dev
+$ yarn add @stomp/stompjs sockjs-client
+$ yarn add @types/sockjs-client --dev
+$ yarn add axios
+$ yarn add @tanstack/react-query
+$ yarn add react-uuid
+```
 
-## Available Scripts
+## 👀 문득 궁금해서 웹 소켓을 써봤다 ,
 
-In the project directory, you can run:
+<br />
 
-### `npm start`
+<img src="./public/images/socket_1.png" width="320" height="560"/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br />
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<img src="./public/images/socket_2.png" width="640" height="560"/>
 
-### `npm test`
+<br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+UI 생각하기가 조금 귀찮아서 ( ... ) 한 10분정도만 <br/>
+잠깐 끄적여서 형식적으로 틀만 잡고 <br/>
+소켓 통신이 어떻게 이루어지는지에 집중했다. <br/><br/>
+근데 생각보다 너무 간단하게 구현해 볼 수 있었음. <br/>
+괜히 어렵게 생각했나 싶기도 하고. <br/><br/>
+물론 DB 연동을 하기 시작하면 이리저리 꼬이기 시작할 것 같긴한데 <br/>
+거기까지 구현하기엔 시간이 부족할 것 같아서 지금은 클라이언트 단에서 대충 처리했다. <br/><br/>
+나중에 관련해서 깊게 들어가보기위해, <br/>
+개념을 익혔던 코드를 그대로 기록하기 위해서 남겨보는 레포지토리.
