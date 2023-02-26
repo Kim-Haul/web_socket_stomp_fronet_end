@@ -17,11 +17,11 @@ $ yarn add react-uuid
 
 <br />
 
-<img src="./public/images/socket_1.png" width="320" height="560"/>
+<img src="./public/images/socket_1.png" />
 
 <br />
 
-<img src="./public/images/socket_2.png" width="640" height="560"/>
+<img src="./public/images/socket_2.png" />
 
 <br />
 
